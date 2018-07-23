@@ -18,6 +18,7 @@ searchUser.addEventListener('keyup', (e) => {
             } else {
                 // Show the profile in the UI
                 ui.showProfile(data.profile);
+                ui.showRepos(data.repos);
             }
         })
     } else {
